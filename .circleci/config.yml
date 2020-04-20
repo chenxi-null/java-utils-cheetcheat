@@ -9,5 +9,5 @@ jobs:
       - store_artifacts:
           path:  target
       - store_test_results:
-          path: surefire-reports
+          path: target/surefire-reports
 
